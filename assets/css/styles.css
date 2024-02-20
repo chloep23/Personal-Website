@@ -723,7 +723,6 @@ body.light-theme{
 
 .work_info{
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
 }
 .work1_data{
@@ -860,7 +859,10 @@ body.light-theme{
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
-@media screen and (max-width: 320px){
+@media screen and (max-width: 480px){
+  body {
+    min-height: 800px;
+  }
   .nav_menu{
     padding: 1rem 1.5rem
   }
@@ -907,7 +909,6 @@ body.light-theme{
     grid-template-columns: repeat(1, 1fr);
   }
 }
-
 /* For medium devices */
 @media screen and (min-width: 576px){
   .nav_menu{
