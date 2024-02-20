@@ -859,7 +859,7 @@ body.light-theme{
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
-@media screen and (max-width: 480px){
+@media screen and (max-width: 320px){
   body {
     min-height: 800px;
   }
