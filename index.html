@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!--=============== FAVICON ===============-->
-        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+        <link rel="shortcut icon" href="assets/img/webicon.png" type="image/x-icon">
 
         <!--=============== BOXICONS ===============-->
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
@@ -16,13 +16,13 @@
         <!--=============== CSS ===============-->
         <link rel="stylesheet" href="">
 
-        <title> Responsive portfolio website Ansel </title>
+        <title> Responsive portfolio website Chloe </title>
     </head>
     <body>
         <!--=============== HEADER ===============-->
         <header class="header" id="header">
             <nav class="nav container">
-                <a href="#" class="nav_logo">Ansel</a>
+                <a href="#" class="nav_logo">Chloe</a>
 
                 <div class="nav_menu">
                     <ul class="nav_list">
@@ -52,14 +52,14 @@
 
                         <li class="nav_item">
                             <a href="#contact" class="nav_link">
-                                <i class='bx bx-message-square-detail' id="theme-button"></i>
+                                <i class='bx bx-message-square-detail'></i>
                             </a>
                         </li>
                     </ul>
 
                 </div>
                 <!--Theme Change Button-->
-                <i class='bx bx-moon change-theme'></i>
+                <i class='bx bx-moon change-theme' id="theme-button"> </i>
             </nav>
             
         </header>
@@ -72,13 +72,13 @@
                     <div class="home_data">
                         <span class="home_greeting">Hello, I'm</span>
                         <h1 class="home_name">Chloe Park</h1>
-                        <h3 class ="home_education">Frontend Developer</h3>
+                        <h3 class ="home_education">Software Engineer</h3>
 
                         <div class="home_buttons">
-                            <a download="" href="assets/pdf/Ansel-Cv.pdf" class="button button--ghost">
+                            <a download="" href="assets/pdf/Park_Chloe_Resume.pdf" target="_blank" class="button button--ghost">
                                 Download Resume
                             </a>
-                            <a href="#about" class="button">About me</a>
+                            <a href="#about" class="button ">About me</a>
                         </div>
 
                     </div>
@@ -88,11 +88,11 @@
                     </div>
 
                     <div class="home_social">
-                        <a href="https://www.linkedin.com/" class="home_social-link">
+                        <a href="https://www.linkedin.com/in/chloe-park-750294240" target="_blank" class="home_social-link">
                             <i class='bx bxl-linkedin-square'></i>
 
                         </a>
-                        <a href="https://github.com/" class="home_social-link">
+                        <a href="https://github.com/chloep23" target="_blank" class="home_social-link">
                             <i class='bx bxl-github' ></i>
 
                         </a>
@@ -101,55 +101,470 @@
                     <a href="#about" class="home_scroll">
                         <i class='bx bx-mouse home_scroll-icon' ></i>
                         <span class="home_scroll-name">Scroll Down</span>
-                    </a>
+                    </a> 
                 </div>
                 
             </section>
             
             <!--=============== ABOUT ===============-->
             <section class="about section" id="about">
+                <span class="section_subtitle">My Intro</span>
+                <h2 class="section_title">About Me</h2>
+
+                <div class="about_container container grid">
+                    <img src="assets/img/casualshot.jpg" alt="" class="about_img">
+                
+                    <div class="about_data">
+                        <div class="about_info">
+                            <div class="about_box">
+                                <i class='bx bxs-graduation' ></i>
+                                <h3 class="about_title">Education</h3>
+                                    <span class="about_subtitle">Rice Undergraduate</span>
+                            </div>
+
+                            <div class="about_box">
+                                <i class='bx bx-briefcase-alt' ></i>
+                                <h3 class="about_title">Completed</h3>
+                                    <span class="about_subtitle">4 Projects</span>
+                            </div>
+
+                            <div class="about_box">
+                                <i class='bx bx-network-chart' ></i>
+                                <h3 class="about_title">Research</h3>
+                                    <span class="about_subtitle">AI and HMI Research</span>
+                            </div>
+                        </div>
+
+                        <p class="about_description">
+                            Curious undergraduate student at Rice University fueled by a passion for creating an impact through computer science (CS). As a CS major and a data science minor, well-versed in software engineering and artificial intelligence, my academic pursuits demonstrate my devotion to the complexities that engulf programming.
+                            I am always challenging the limits of technology, striving to discover more and more each day. Passionate about this field, I would love to connect with fellow peers, mentors, alumni, and professionals in the industry.
+                        </p>
+
+                        <a href="#contact" class="button">Contact Me</a>
+                    </div>
+                </div>
                 
             </section>
 
             <!--=============== SKILLS ===============-->
             <section class="skills section" id="skills">
-                
+                <span class="section_subtitle">My Abilities</span>
+                <h2 class="section_title">My Skills</h2>
+
+                <div class="skills_container container grid">
+                    <div class="skills_content">
+                        <h3 class="skills_title">Frontend developer</h3>
+
+                        <div class="skills_box">
+                            <div class="skills_group">
+                                <div class="skills_data">
+                                    <i class='bx bxs-badge-check' ></i>
+
+                                    <div>
+                                        <h3 class="skills_name">HTML</h3>
+                                        <span class="skills_level">Intermediate</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills_data">
+                                    <i class='bx bxs-badge-check' ></i>
+
+                                    <div>
+                                        <h3 class="skills_name">CSS</h3>
+                                        <span class="skills_level">Intermediate</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills_data">
+                                    <i class='bx bxs-badge-check' ></i>
+
+                                    <div>
+                                        <h3 class="skills_name">JavaScript</h3>
+                                        <span class="skills_level">Intermediate</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skills_group">
+                                <div class="skills_data">
+                                    <i class='bx bxs-badge-check' ></i>
+
+                                    <div>
+                                        <h3 class="skills_name">Next Js</h3>
+                                        <span class="skills_level">Intermediate</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills_data">
+                                    <i class='bx bxs-badge-check' ></i>
+
+                                    <div>
+                                        <h3 class="skills_name">Unity</h3>
+                                        <span class="skills_level">Advanced</span>
+                                    </div>
+                                </div>
+
+
+                                <div class="skills_data">
+                                    <i class='bx bxs-badge-check' ></i>
+
+                                    <div>
+                                        <h3 class="skills_name">React</h3>
+                                        <span class="skills_level">Intermediate</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills_content">
+                        <h3 class="skills_title">Backend developer</h3>
+
+                        <div class="skills_box">
+                            <div class="skills_group">
+                                <div class="skills_data">
+                                    <i class='bx bxs-badge-check' ></i>
+
+                                    <div>
+                                        <h3 class="skills_name">C#</h3>
+                                        <span class="skills_level">Intermediate</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills_data">
+                                    <i class='bx bxs-badge-check' ></i>
+
+                                    <div>
+                                        <h3 class="skills_name">Node JS</h3>
+                                        <span class="skills_level">Basic</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills_data">
+                                    <i class='bx bxs-badge-check' ></i>
+
+                                    <div>
+                                        <h3 class="skills_name">Python</h3>
+                                        <span class="skills_level">Advanced</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skills_group">
+                                <div class="skills_data">
+                                    <i class='bx bxs-badge-check' ></i>
+
+                                    <div>
+                                        <h3 class="skills_name">MySQL</h3>
+                                        <span class="skills_level">Intermediate</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills_data">
+                                    <i class='bx bxs-badge-check' ></i>
+
+                                    <div>
+                                        <h3 class="skills_name">PyTorch</h3>
+                                        <span class="skills_level">Basic</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills_data">
+                                    <i class='bx bxs-badge-check' ></i>
+
+                                    <div>
+                                        <h3 class="skills_name">Git</h3>
+                                        <span class="skills_level">Intermediate</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
 
             <!--=============== SERVICES ===============-->
             <section class="services section">
-                
+                <span class="section_subtitle">My Services</span>
+                <h2 class="section_title">My Experience</h2>
+
+                <div class="services_container container grid">
+                    <div class="services_card">
+                        <h3 class="services_title">Full Stack <br> Developer</h3>
+
+                        <span class="services_button">
+                            See more <i class='bx bx-right-arrow-alt' ></i>
+                        </span>
+
+                        <div class="services_modal">
+                            <div class="services_modal-content">
+                                <i class='bx bx-x services_modal-close' ></i>
+
+                                <h3 class="services_modal-title">Full Stack Developer</h3>
+                                <p class="services_modal-description">
+                                    Developed and in the process of developing websites and web applications for several organizations:
+                                    The non-profit Houston Ballet Company, Rice's student-run coffeehouse Chaus, and a small photoshoot business 2KAM
+                                </p>
+
+                                <ul class="services_modal-list">
+                                    <li class="services_modal-item">
+                                        <i class='bx bx-check services_modal-icon' ></i>
+                                        <p class="services_modal-info">
+                                            Front-end web page development
+                                        </p>
+                                    </li>
+
+                                    <li class="services_modal-item">
+                                        <i class='bx bx-check services_modal-icon' ></i>
+                                        <p class="services_modal-info">
+                                            Back-end web page development
+                                            
+                                        </p>
+                                    </li>
+
+                                    <li class="services_modal-item">
+                                        <i class='bx bx-check services_modal-icon' ></i>
+                                        <p class="services_modal-info">
+                                            UI/UX design
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="services_card">
+                        <h3 class="services_title">Unity <br> Developer</h3>
+
+                        <span class="services_button">
+                            See more <i class='bx bx-right-arrow-alt' ></i>
+                        </span>
+
+                        <div class="services_modal">
+                            <div class="services_modal-content">
+                                <i class='bx bx-x services_modal-close' ></i>
+
+                                <h3 class="services_modal-title">Unity AR/Game Developer</h3>
+                                <p class="services_modal-description">
+                                    Created digital games modeled after traditional Korean games that my family frequently plays, with the aim of promoting awareness of Korean culture to a wider audience.
+                                    Develops the front and back-end for the NASASUITS AR console modeled with the Unity to assist NASA’s crew during Extravehicular Activity (EVA) for the Artemis mission: to land the first woman and person of color on the Moon.
+ 
+                                </p>
+
+                                <ul class="services_modal-list">
+                                    <li class="services_modal-item">
+                                        <i class='bx bx-check services_modal-icon' ></i>
+                                        <p class="services_modal-info">
+                                            Original C# code for each game
+                                        </p>
+                                    </li>
+
+                                    <li class="services_modal-item">
+                                        <i class='bx bx-check services_modal-icon' ></i>
+                                        <p class="services_modal-info">
+                                            Hand-drawn and self-made Procreate and Blender designs
+                                            
+                                        </p>
+                                    </li>
+
+                                    <li class="services_modal-item">
+                                        <i class='bx bx-check services_modal-icon' ></i>
+                                        <p class="services_modal-info">
+                                            Static and dynamic Local Mission Control Console (LMCC) developer
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="services_card">
+                        <h3 class="services_title">AI and HCI<br> Researcher</h3>
+
+                        <span class="services_button">
+                            See more <i class='bx bx-right-arrow-alt' ></i>
+                        </span>
+
+                        <div class="services_modal">
+                            <div class="services_modal-content">
+                                <i class='bx bx-x services_modal-close' ></i>
+
+                                <h3 class="services_modal-title">AI and HCI Researcher</h3>
+                                <p class="services_modal-description">
+                                    Implementing federated learning (FL) algorithms to train personalized human-computer interface (HCI) models in order to build more accessible and improved biosignal interfaces
+                                </p>
+
+                                <ul class="services_modal-list">
+                                    <li class="services_modal-item">
+                                        <i class='bx bx-check services_modal-icon' ></i>
+                                        <p class="services_modal-info">
+                                            Utilizing EMG (muscle-based) inputs to train biosignal decoding models for participants to complete an on-screen cursor tracking task for muscle-based computer mouse control
+                                        </p>
+                                    </li>
+
+                                    <li class="services_modal-item">
+                                        <i class='bx bx-check services_modal-icon' ></i>
+                                        <p class="services_modal-info">
+                                            Building a real-time framework for conducting user studies for people with/without disabilities to validate the performance of federated learning simulation
+                                            
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
 
             <!--=============== WORK ===============-->
             <section class="work section" id="work">
-                
-            </section>
+                <span class="section_subtitle">My Portfolio</span>
+                <h2 class="section_title">Recent Works</h2>
 
-            <!--=============== TESTIMONIALS ===============-->
-            <section class="testimonial section">
-                
+                <div class="work_filters">
+                    <span class="work_item active-work" data-filter="all">All</span>
+                    <span class="work_item" data-filter=".web">Web</span>
+                    <span class="work_item" data-filter=".unity">Unity</span>
+                </div>
+
+                <div class="work_container container grid">
+                    <div class="work_info mix web">
+                        <div class="work_card ">
+                            <img src="assets/img/HNM.png" alt="" class="work_image">
+
+                            <a href="https://houston-ballet-official.vercel.app/vendors" target = "_blank" class="work_button">
+                                Demo <i class='bx bx-right-arrow-alt work_icon' ></i>
+                            </a>
+                            <a href="https://github.com/rice-apps/houston-ballet"  target = "_blank" class="work_git">
+                                Git <i class='bx bx-right-arrow-alt work_icon' ></i>
+                            </a>
+                        </div>
+                        
+                        <div class="work_card mix web">
+                            <h3 class="work_title">Houston Ballet Nutcracker Market App </h3>
+                            <h3 class="work_subtitle">Tech: React.js, Node.js, Twilio, Strapi </h3>
+                            <h4 class="work_description">A RiceApps web aplication designed to enhance the Nutcracker Market experience for its 100,000+ annual visitors and connect the market’s audience with the Houston Ballet. Employs the SDK MappedIn along to create interactive map of the 300-plus vendors present at the event</h4>
+
+                        </div>
+                    </div>
+
+                    <div class="work_info mix unity">
+                        <div class="work_card">
+                            <img src="assets/img/YutnoriWorkCover.png" alt="" class="work_image">
+    
+    
+                            <a href="https://simmer.io/@chloesp23/yutnori"  target = "_blank" class="work_button">
+                                Demo <i class='bx bx-right-arrow-alt work_icon' ></i>
+                            </a>
+                            <a href="https://github.com/chloep23/Yutnori" target = "_blank" class="work_git">
+                                Git <i class='bx bx-right-arrow-alt work_icon' ></i>
+                            </a>
+                        </div>
+
+                        <div class="work_card">
+                            <h3 class="work_title">Yutnori Unity Game </h3>
+                            <h3 class="work_subtitle">Tech: C#, Unity, Procreate </h3>
+                            <h4 class="work_description">A Unity 2D game with self-created Procreate graphics that provides an accessible lens into Korean culture for the
+                                600 students at National Cathedral School with an Asian body of less than 14%. The game’s basic concept is the following: throw the four provided sticks 
+                                repeatedly and the first player to make his/her way around the board, returning to the start, wins.</h4>
+                        </div>
+                    </div>
+
+                    <div class="work_info mix unity">
+                        <div class="work_card">
+                            <img src="assets/img/DalgonaWorkCover.png" alt="" class="work_image">
+    
+                            <a href="https://simmer.io/@chloesp23/dalgona" target = "_blank" class="work_button">
+                                Demo <i class='bx bx-right-arrow-alt work_icon' ></i>
+                            </a>
+                            <a href="https://github.com/chloep23/Dalgona" target = "_blank" class="work_git">
+                                Git <i class='bx bx-right-arrow-alt work_icon' ></i>
+                            </a>
+                        </div>
+
+                        <div class="work_card">
+                            <h3 class="work_title">Dalgona Unity Game </h3>
+                            <h3 class="work_subtitle">Tech: C#, Unity, Procreate </h3>
+                            <h4 class="work_description">A fresh Unity 2D game incorporating original Procreate graphics, designed to showcase Korean media, specifically inspired by Squid Games. In a given amount 
+                                of time, the player must carefully trace around the selected pattern imprinted on the honeycomb sugar candy without breaking it. Players can choose which 
+                                pattern they wish to attempt, though the umbrella is notorious for its difficulty, while the triangle is the easiest.</h4>
+                    </div>
+                </div>
             </section>
 
             <!--=============== CONTACT ===============-->
             <section class="contact section" id="contact">
-                
+                <span class="section_subtitle">Get in Touch</span>
+                <h2 class="section_title">Contact Me</h2>
+
+                <div class="contact_container container grid">
+                    <div class="contact_content">
+
+                        <div class="contact_info">
+                            <div class="contact_card">
+                                <i class='bx bx-mail-send contact_card-icon'></i>
+                                <h3 class="contact_card-title">Email</h3>
+                                <span class="contact_card-data">csp8@rice.edu</span>
+
+                                <a href="mailto:csp8@rice.edu" target="blank" class="contact_button">
+                                    Write me <i class='bx bx-right-arrow-alt contact_button-icon'></i>
+                                </a>
+                            </div>
+
+                            <div class="contact_card">
+                                <i class='bx bx-phone-call contact_card-icon'></i>
+                                <h3 class="contact_card-title">Phone</h3>
+                                <span class="contact_card-data">703-967-4764</span>
+
+                                <a href="tel:703-967-4764" target="blank" class="contact_button">
+                                    Call me <i class='bx bx-right-arrow-alt contact_button-icon'></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
         </main>
 
         <!--=============== FOOTER ===============-->
         <footer class="footer">
+            <div class="footer_container container">
+                <h1 class="footer_title">Chloe Park</h1>
+                <ul class="footer_list">
+                    <li>
+                        <a href="#about" class="footer_link">About</a>
+                    </li>
+                    <li>
+                        <a href="#work" class="footer_link">Projects</a>
+                    </li>
+                    <li>
+                        <a href="skills" class="footer_link">Skills</a>
+                    </li>
+                </ul>
+
+                <ul class="footer_social">
+                    <a href="https://github.com/chloep23" target="_blank" class="footer_social-link">
+                        <i class='bx bxl-github'></i>
+                    </a>
+                    <a href="https://www.instagram.com/chloe.p64/" target="_blank" class="footer_social-link">
+                        <i class='bx bxl-instagram'></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/chloe-park-750294240" target="_blank" class="footer_social-link">
+                        <i class='bx bxl-linkedin-square'></i>
+                    </a>
+                </ul>
+            </div>
             
         </footer>
 
         <!--=============== SCROLLREVEAL ===============-->
-        <script src=""></script>
+        <script src="assets/js/scrollreveal.min.js"></script>
 
         <!--=============== SWIPER JS ===============-->
-        <script src=""></script>
+        <script src="assets/js/swiper-bundle.min.js"></script>
 
         <!--=============== MIXITUP FILTER ===============-->
-        <script src=""></script>
+        <script src="assets/js/mixitup.min.js"></script>
 
         <!--=============== MAIN JS ===============-->
         <script src="assets/js/main.js"></script>
