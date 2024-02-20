@@ -5,13 +5,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!--=============== FAVICON ===============-->
-        <link rel="shortcut icon" href="" type="image/x-icon">
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
 
         <!--=============== BOXICONS ===============-->
-        
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
         <!--=============== SWIPER CSS ===============-->
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="assets/css/styles.css">
 
         <!--=============== CSS ===============-->
         <link rel="stylesheet" href="">
@@ -21,6 +21,46 @@
     <body>
         <!--=============== HEADER ===============-->
         <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav_logo">Ansel</a>
+
+                <div class="nav_menu">
+                    <ul class="nav_list">
+                        <li class="nav_item">
+                            <a href="#home" class="nav_link active-link">
+                                <i class='bx bx-home-alt'></i>
+                            </a>
+                        </li>
+
+                        <li class="nav_item">
+                            <a href="#about" class="nav_link">
+                                <i class='bx bx-user' ></i>
+                            </a>
+                        </li>
+
+                        <li class="nav_item">
+                            <a href="#skills" class="nav_link">
+                                <i class='bx bx-book' ></i>
+                            </a>
+                        </li>
+
+                        <li class="nav_item">
+                            <a href="#work" class="nav_link">
+                                <i class='bx bx-briefcase' ></i>
+                            </a>
+                        </li>
+
+                        <li class="nav_item">
+                            <a href="#contact" class="nav_link">
+                                <i class='bx bx-message-square-detail' id="theme-button"></i>
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+                <!--Theme Change Button-->
+                <i class='bx bx-moon change-theme'></i>
+            </nav>
             
         </header>
 
@@ -28,6 +68,41 @@
         <main class="main">
             <!--=============== HOME ===============-->
             <section class="home section" id="home">
+                <div class="home_container container grid">
+                    <div class="home_data">
+                        <span class="home_greeting">Hello, I'm</span>
+                        <h1 class="home_name">Chloe Park</h1>
+                        <h3 class ="home_education">Frontend Developer</h3>
+
+                        <div class="home_buttons">
+                            <a download="" href="assets/pdf/Ansel-Cv.pdf" class="button button--ghost">
+                                Download Resume
+                            </a>
+                            <a href="#about" class="button">About me</a>
+                        </div>
+
+                    </div>
+                    
+                    <div class="home_handle">
+                        <img src="assets/img/headshot.png" alt="" class="home_img">
+                    </div>
+
+                    <div class="home_social">
+                        <a href="https://www.linkedin.com/" class="home_social-link">
+                            <i class='bx bxl-linkedin-square'></i>
+
+                        </a>
+                        <a href="https://github.com/" class="home_social-link">
+                            <i class='bx bxl-github' ></i>
+
+                        </a>
+                    </div>
+
+                    <a href="#about" class="home_scroll">
+                        <i class='bx bx-mouse home_scroll-icon' ></i>
+                        <span class="home_scroll-name">Scroll Down</span>
+                    </a>
+                </div>
                 
             </section>
             
@@ -77,6 +152,6 @@
         <script src=""></script>
 
         <!--=============== MAIN JS ===============-->
-        <script src=""></script>
+        <script src="assets/js/main.js"></script>
     </body>
 </html>

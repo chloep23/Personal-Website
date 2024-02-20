@@ -1,0 +1,12 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "- Responsive Portfolio Website Using HTML CSS & JavaScript\r - Smooth scrolling in each section.\r - Includes a dark and light mode.\r - Developed first with the Mobile First methodology, then for desktop.\r - Compatible with all mobile devices and with a beautiful and pleasant user interface.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
